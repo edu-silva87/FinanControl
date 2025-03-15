@@ -26,8 +26,8 @@ public class UserModel implements Serializable {
     @Column(nullable = false)
     private String name;
 
-    public void setId(UUID id) {
-        this.id = id;
+    public UUID getId() {
+        return id;
     }
 
     public String getEmail() {
