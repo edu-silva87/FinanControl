@@ -4,17 +4,17 @@ import java.util.UUID;
 
 public class EmailDto {
 
-    private UUID userID;
+    private UUID userId;
     private String email;
     private String subject;
     private String text;
 
-    public UUID getUserID() {
-        return userID;
+    public UUID getUserId() {
+        return userId;
     }
 
-    public void setUserID(UUID userID) {
-        this.userID = userID;
+    public void setUserId(UUID userId) {
+        this.userId = userId;
     }
 
     public String getEmail() {

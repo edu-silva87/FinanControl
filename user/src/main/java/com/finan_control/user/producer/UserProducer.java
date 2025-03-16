@@ -21,7 +21,7 @@ public class UserProducer {
     public void publishMessageEmail(UserModel userModel){
         EmailDto emailDto = new EmailDto();
 
-        emailDto.setUserID(userModel.getId());
+        emailDto.setUserId(userModel.getId());
         emailDto.setEmail(userModel.getEmail());
         emailDto.setSubject("Cadastro realizado com sucessso");
         emailDto.setText(userModel.getName() + " , seja bem vindo(a)! \n Agradecemos o seu cadastro, aproveite agora todos os recursos de nossa plataforma");
