@@ -5,7 +5,7 @@ import java.util.UUID;
 public class EmailDto {
 
     private UUID userId;
-    private String email;
+    private String emailTo;
     private String subject;
     private String text;
 
@@ -17,12 +17,12 @@ public class EmailDto {
         this.userId = userId;
     }
 
-    public String getEmail() {
-        return email;
+    public String getEmailTo() {
+        return emailTo;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setEmailTo(String emailTo) {
+        this.emailTo = emailTo;
     }
 
     public String getSubject() {
